@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &61842254210134623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 61842254210134621}
+  - component: {fileID: 61842254210134622}
+  m_Layer: 0
+  m_Name: CheatKeys
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &61842254210134621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61842254210134623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.08808106, y: 0.6029323, z: -0.26974082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61842254210134622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61842254210134623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14f1e936732b714a83c9965172eca42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPackObject: {fileID: 1854425252707494, guid: b1f79bc72c7086542a923e6545cc40d2, type: 3}
+  ammoBoxes:
+  - {fileID: 2692261966986896550, guid: bc81068f5f41ed748a89d26745ed6425, type: 3}
+  - {fileID: 103226, guid: 8763502436213a942851460236cd07e4, type: 3}
+  - {fileID: 147866, guid: 2398398009cd3134e99d728baf4aa18f, type: 3}
+  - {fileID: 1521039864703160901, guid: 3153a0274d24b354e81811017895900b, type: 3}
+  SpawnObjectsFirstLevel:
+  - {fileID: 3263603860524463257, guid: bbb821975fa84f048ba394771f4e61d5, type: 3}
+  - {fileID: 113348, guid: a6598e7aaf02e47a4b3521fd10c8b0cc, type: 3}
+  - {fileID: 5244916577549023294, guid: b88dad09559c94fa99730fa8c1339cf0, type: 3}
+  - {fileID: 255589841518016476, guid: 99e9b688b756441ffa31ee1948144e69, type: 3}
+  SpawnObjectsSecondLevel:
+  - {fileID: 5244916577549023294, guid: b88dad09559c94fa99730fa8c1339cf0, type: 3}
+  - {fileID: 6973405229404545542, guid: d178772e0e7e4a4459387d477378c30a, type: 3}
+  - {fileID: 255589841518016476, guid: 99e9b688b756441ffa31ee1948144e69, type: 3}
+  - {fileID: 3263603860524463257, guid: bbb821975fa84f048ba394771f4e61d5, type: 3}
+  tank: {fileID: 113348, guid: 9875074b02bdf4bada873b8403f7141a, type: 3}
+  normal: {fileID: 113348, guid: 54eb5844754051b40a918a84c33b7c1a, type: 3}
+  normalHorde: {fileID: 6541702746202435601, guid: 08da2b5251191db44b9e2d61b793adc6, type: 3}
+  Joel: {fileID: 2607934685599442146, guid: a086ff0a51b2d144b817e37cdbc61b6f, type: 3}
